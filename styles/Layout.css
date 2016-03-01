@@ -1,15 +1,15 @@
-.body
-{
-
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
 }
 
-.div
-{
-
+@font-face {
+    font-family: headerfont;
+    src: url('../fonts/Lobster_1.3.otf');
 }
 
-section
-{
-
-
+header {
+    font-weight: bold;
 }
