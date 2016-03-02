@@ -12,4 +12,8 @@ body {
 
 header {
     font-weight: bold;
+    background-color: #00a597;
+}
+.backgroundgradient {
+    font: "Segoe UI",  ;
 }
