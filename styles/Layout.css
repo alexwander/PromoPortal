@@ -17,6 +17,8 @@ body{
     font-size:16px;
     font-family: 'Titillium Web', sans-serif;
     line-height:28px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -239,6 +241,84 @@ nav#menu #menu-nav li a:hover {
     column-count: 2;
 }
 
+
+/*
+   info block
+ */
+.info-block {
+    border-left: 2px solid #DE5E60;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+
+.info-text {
+    padding-right: 20%;
+    position: relative;
+}
+
+.info-block h3 {
+    font-size: 24px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.info-block p {
+    margin-bottom: 0;
+}
+
+.info-block a.button {
+    margin-top: -20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+
+/*
+   margin and bottom
+ */
+
+
+.margin-0{
+    margin-bottom:0 !important;
+}
+
+.margin-10{
+    margin-bottom:10px !important;
+}
+
+.margin-15{
+    margin-bottom:15px !important;
+}
+
+.margin-20{
+    margin-bottom:20px !important;
+}
+
+.margin-30{
+    margin-bottom:30px !important;
+}
+
+.margin-40{
+    margin-bottom:40px !important;
+}
+
+.margin-50{
+    margin-bottom:50px !important;
+}
+
+.margin-60{
+    margin-bottom:60px !important;
+}
+
+.margin-70{
+    margin-bottom:70px !important;
+}
+
+.margin-80{
+    margin-bottom:80px !important;
+}
 
 
 
