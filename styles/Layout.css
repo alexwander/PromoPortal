@@ -267,11 +267,26 @@ nav#menu #menu-nav li a:hover {
     margin-bottom: 0;
 }
 
-.info-block a.button {
-    margin-top: -20px;
+a.button {
+
     position: absolute;
     right: 0;
     top: 50%;
+    background: #3C3F45;
+    color: #b8b8b9;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 16px 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    margin-top: 30px;
+    -webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+    -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+    -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
+    transition: background 0.1s linear 0s, color 0.1s linear 0s;
 }
 
 
