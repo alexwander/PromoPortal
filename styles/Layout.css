@@ -98,6 +98,20 @@ hr {
     text-decoration:line-through;
 }
 
+.page {
+    background: #fdfdfe;
+    padding: 100px 0;
+    position: relative;
+    z-index: 99;
+}
+
+.page-alternate {
+    background: #fdfdfe;
+    padding: 100px 0;
+    position: relative;
+    z-index: 99;
+}
+
 input, button, select, textarea {
     font-weight: 300;
     font-family: 'Titillium Web', sans-serif;
