@@ -353,6 +353,7 @@ a {
  */
 
 
+
 #social-area {
     text-align: center;
 }
@@ -364,7 +365,7 @@ a {
 
 #social-area #social ul li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
     list-style: none;
     cursor: pointer;
 }
@@ -378,7 +379,7 @@ a {
     width: 70px;
     height: 70px;
 
-    background: #26292E;
+    background: rgba(0, 192, 178, 0.09);
 
     -webkit-transition: all 400ms ease-out 0s;
     -moz-transition: all 400ms ease-out 0s;
@@ -460,5 +461,5 @@ footer p {
 }
 footer span {
     display: block;
-    float: right;
+
 }
