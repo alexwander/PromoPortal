@@ -272,13 +272,13 @@ a.button {
     position: absolute;
     right: 0;
     top: 50%;
-    background: #3C3F45;
-    color: #b8b8b9;
+    background: #00a597;
+    color: #6a0100;
     cursor: pointer;
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    padding: 16px 40px;
+    padding: 8px 18px;
     text-align: center;
     vertical-align: middle;
     width: auto;
