@@ -17,6 +17,8 @@ body{
     font-size:16px;
     font-family: 'Titillium Web', sans-serif;
     line-height:28px;
+    display: block;
+    margin: 0px;
 
 }
 
@@ -69,35 +71,7 @@ hr {
     margin: 50px 0;
 }
 
-.align_left{
-    float:left;
-    margin:0 25px 0 0px!important;
-}
 
-.align_right{
-    float:right;
-    margin:0 0 0 25px!important;
-}
-
-.text_align_left {
-    text-align: left;
-}
-
-.text_align_center {
-    text-align: center;
-}
-
-.text_align_right {
-    text-align: right;
-}
-
-.color-text {
-    color: #000000;
-}
-
-.through{
-    text-decoration:line-through;
-}
 
 .page {
     background: #fdfdfe;
@@ -184,7 +158,13 @@ header #logo {
     margin-right: 10px;
 }
 
+#main {
+    margin-right: 20px;
+    margin-left: 20px;
 
+
+
+}
 
 
 nav#menu {
@@ -462,6 +442,8 @@ footer span {
 
 
 /* HeaderWrap */
+
+
 #headerwrap {
     /* background: url(../img/bg01.jpg) no-repeat center top; */
     margin-top: -20px;
@@ -469,6 +451,8 @@ footer span {
     background: #00a597;
     min-height: 300px;
     width: 100%;
+    position: relative;
+    z-index: 99;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -485,8 +469,11 @@ footer span {
     margin-top: 60px;
     margin-bottom: 15px;
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: 1px;
+    margin-left: 50px;
 }
+
+
 
