@@ -129,6 +129,9 @@ header .sticky-nav {
     background: #00a597;
     z-index: 1001;
 
+
+
+
 }
 
 header .sticky-nav.stuck {
@@ -194,6 +197,7 @@ nav#menu #menu-nav li a {
     line-height: 100px;
     display: block;
     text-transform: uppercase;
+
 }
 
 nav#menu #menu-nav li.current a,
