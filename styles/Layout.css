@@ -714,6 +714,8 @@ footer span {
     margin: 0;
     padding: 0;
 }
+
+
 .bordered-list li {
     border-bottom: 1px solid #CCCBC9;
     padding: 20px 0;
@@ -724,3 +726,6 @@ footer span {
 .bordered-list li.last {
     border-bottom: 0px;
 }
+
+
+
