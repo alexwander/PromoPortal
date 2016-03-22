@@ -18,7 +18,7 @@ body{
     font-family: 'Titillium Web', sans-serif;
     line-height:28px;
     display: block;
-    margin: 0px;
+    margin: 5%;
 
 }
 
@@ -117,6 +117,7 @@ textarea::-webkit-input-placeholder {
 
 
 
+
 header {
     width: 100%;
     z-index: 99;
@@ -128,6 +129,9 @@ header .sticky-nav {
     height: 70px;
     background: #00a597;
     z-index: 1001;
+
+
+
 
 
 
@@ -540,9 +544,10 @@ footer span {
     padding-top:200px;
     background: #00a597;
     min-height: 300px;
-    width: 100%;
+    width: 120%;
     position: relative;
     z-index: 99;
+    margin-left: -95px;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -563,7 +568,7 @@ footer span {
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 1px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 
