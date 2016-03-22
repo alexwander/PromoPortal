@@ -288,7 +288,7 @@ a {
 
 .span4-profile {
 
-
+margin:auto;
 
 
 }
@@ -298,6 +298,7 @@ a {
     overflow: hidden;
     margin-bottom: 25px;
     cursor: pointer;
+
 }
 
 .image-wrap img {
