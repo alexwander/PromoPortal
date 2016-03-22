@@ -524,6 +524,11 @@ footer span {
 /*Contact page*/
 
 
+.wpcf7{
+    margin-top: 40px;
+
+}
+
 .contact-details h3 {
     color: #fefeff;
     font-size: 24px;
@@ -564,7 +569,7 @@ footer span {
     -moz-box-shadow: none;
     box-shadow: none;
 
-    background: #FFFFFF;
+    background: rgba(0, 211, 187, 0.05);
     color: #000000;
     font-size: 16px;
     height: auto;
