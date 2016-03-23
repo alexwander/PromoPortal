@@ -114,10 +114,6 @@ textarea::-webkit-input-placeholder {
     color: #7F8289;
 }
 
-
-
-
-
 header {
     width: 100%;
     z-index: 99;
@@ -129,12 +125,6 @@ header .sticky-nav {
     height: 70px;
     background: #00a597;
     z-index: 1001;
-
-
-
-
-
-
 
 }
 
@@ -168,8 +158,6 @@ header #logo {
 #main {
     margin-right: 50px;
     margin-left: 50px;
-
-
 
 }
 
@@ -252,7 +240,6 @@ nav#menu #menu-nav li a:hover {
 }
 
 a.button {
-
     position: absolute;
     right: 0;
     top: 50%;
@@ -364,8 +351,6 @@ a {
    social buttons
  */
 
-
-
 #social-area {
     text-align: center;
 }
@@ -454,11 +439,9 @@ a {
 
 
 
-
 /*
    Footer
  */
-
 
 footer {
     background: #fefeff;
@@ -477,8 +460,8 @@ footer span {
 }
 
 
-/* HeaderWrap */
 
+/* HeaderWrap */
 
 #headerwrap {
     /* background: url(../img/bg01.jpg) no-repeat center top; */
@@ -515,9 +498,7 @@ footer span {
 
 
 
-
 /*Contact page*/
-
 
 .wpcf7{
     margin-top: 40px;
