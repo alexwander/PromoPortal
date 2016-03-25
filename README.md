@@ -7,5 +7,6 @@ Simple promo web site.
 <li>Canvas</li>
 <li>CSS3</li>
 <li>JavaScript</li>
+<li>jQuery</li>
 </ul>
 
