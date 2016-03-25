@@ -291,6 +291,8 @@ a {
     overflow: hidden;
     margin-bottom: 25px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
