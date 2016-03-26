@@ -28,6 +28,19 @@ $(this).removeClass('close');
 </script>
 
 
+$(document).ready(function() {
+$('.answer').hide();
+$('.main h2').click(function() {
+var $answer = $(this).next('.answer');
+if ($answer.is(':hidden')) {
+$answer.slideDown();
+} else {
+}
+}); // end click
+}); // end of ready()
+
+
+
 
 </body>
 </html>
