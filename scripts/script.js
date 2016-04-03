@@ -35,3 +35,21 @@ WINDOW.fancyBox = function(){
         });
     }
 }
+
+WINDOW.listenerMenu = function(){
+    $('#mobile-nav').on('click', function(e){
+        $(this).toggleClass('open');
+
+        if ($('#mobile-nav').hasClass('open')) {
+            $('#navigation-mobile').slideDown(500, 'easeOutExpo');
+        } else {
+            $('#navigation-mobile').slideUp(500, 'easeOutExpo');
+        }
+        e.preventDefault();
+    });
+
+    $('#menu-nav-mobile a').on('click', function(){
+        $('#mobile-nav').removeClass('open');
+        $('#navigation-mobile').slideUp(350, 'easeOutExpo');
+    });
+}
