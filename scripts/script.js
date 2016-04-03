@@ -79,3 +79,59 @@ WINDOW.contactForm = function(){
         return false;
     });
 }
+
+/* ==================================================
+ Init
+ ================================================== */
+
+WINDOW.slider();
+
+$(document).ready(function(){
+    Modernizr.load([
+        {
+            test: Modernizr.placeholder,
+            nope: '_include/js/placeholder.js',
+            complete : function() {
+                if (!Modernizr.placeholder) {
+                    Placeholders.init({
+                        live: true,
+                        hideOnFocus: false,
+                        className: "yourClass",
+                        textColor: "#999"
+                    });
+                }
+            }
+        }
+    ]);
+
+    // Preload the page with jPreLoader
+    $('body').jpreLoader({
+        splashID: "#jSplash",
+        showSplash: true,
+        showPercentage: true,
+        autoClose: true,
+        splashFunction: function() {
+            $('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
+        }
+    });
+
+    WINDOW.nav();
+    WINDOW.mobileNav();
+    WINDOW.listenerMenu();
+
+    WINDOW.goUp();
+    WINDOW.filter();
+    WINDOW.fancyBox();
+    WINDOW.contactForm();
+    WINDOW.scrollToTop();
+    WINDOW.utils();
+    WINDOW.accordion();
+    WINDOW.toggle();
+    WINDOW.toolTip();
+});
+
+$(window).resize(function(){
+    WINDOW.mobileNav();
+});
+
+});
