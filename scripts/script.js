@@ -76,26 +76,3 @@ function sendMessage() {
 
 
 
-$.fn.JMDInput = function(options){
-    return this.each(function(){
-        var instance = $.data(this, 'JMDInput');
-        if (!instance){
-            if (!options){
-                instance = new JMDInput(this, null);
-            }
-            else if(typeof options ==='object'){
-                instance = new JMDInput(this, options);
-            }
-            $.data(this, 'JMDInput', instance);
-        }
-        else{
-            if (options === 'destroy'){
-                instance.destroy();
-            }else if(typeof options ==='string'){
-                instance[options]();
-            }
-        }
-    });
-};
-
-})(jQuery, window, document);
