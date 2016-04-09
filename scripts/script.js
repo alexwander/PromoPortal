@@ -12,3 +12,12 @@ $('#theElement').on('click', function() {
 $('#theElement').on('mouseover', function() {
 // do something else interesting
 }); // end on
+
+$('#theElement').on({
+    'click' : function() {
+// do something interesting
+    }, // end click function
+    'mouseover' : function() {
+// do something interesting
+    } // end mouseover function
+}); // end on
