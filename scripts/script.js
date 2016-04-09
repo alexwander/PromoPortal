@@ -21,3 +21,7 @@ $('#theElement').on({
 // do something interesting
     } // end mouseover function
 }); // end on
+
+$('ul').on('click', function() {
+    $(this).css('text-decoration': 'line-through');
+}
