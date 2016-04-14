@@ -614,3 +614,26 @@ footer span {
 }
 
 
+/* Blog */
+
+.blog article h2 a {
+    color: #2f2f2f;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blog .indexMeta {
+    background: url(../img/blog-title-bg2.png);
+    border-top: 1px solid #d0d0d0 !important;
+    border-bottom: 1px solid #d0d0d0 !important;
+    clear: both;
+    position: relative;
+    padding: 20px !important;
+    padding-bottom: 40px !important;
+    margin-bottom: 40px;
+}
+
+.pagination {
+    height: 40px;
+    margin: 20px 0;
+}
