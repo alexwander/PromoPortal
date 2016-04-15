@@ -663,6 +663,15 @@ footer span {
     border: 1px solid #d0d0d0;
 }
 
+.blog .indexMeta .dd_buttons {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 12px;
+    border-left: 1px solid #d9d9d9;
+    padding-left: 10px;
+}
+
 
 .pagination {
     height: 40px;
@@ -700,4 +709,22 @@ footer span {
     color: #999999;
     cursor: default;
     background-color: transparent;
+}
+
+
+
+.social-icons {
+    padding: 0;
+    display: inline-block;
+    *display: inline;
+    margin-bottom: 0;
+    margin-left: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    *zoom: 1;
+}
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
 }
