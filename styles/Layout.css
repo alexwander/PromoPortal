@@ -613,7 +613,6 @@ footer span {
 }
 
 .blog .indexMeta {
-    background: url(../img/blog-title-bg2.png);
     border-top: 1px solid #d0d0d0 !important;
     border-bottom: 1px solid #d0d0d0 !important;
     clear: both;
@@ -636,6 +635,7 @@ footer span {
     font-weight: 400;
     position: relative;
     text-transform: uppercase;
+
 }
 
 .blog .post-meta ul li {
@@ -648,6 +648,8 @@ footer span {
     list-style: none;
     padding: 0;
     margin: 0;
+
+
 }
 
 .blog .blog-post-tags li a {
@@ -661,6 +663,7 @@ footer span {
     position: relative;
     text-transform: uppercase;
     border: 1px solid #d0d0d0;
+
 }
 
 .blog .indexMeta .dd_buttons {
@@ -710,8 +713,6 @@ footer span {
     cursor: default;
     background-color: transparent;
 }
-
-
 
 .social-icons {
     margin: 0;
