@@ -637,3 +637,41 @@ footer span {
     height: 40px;
     margin: 20px 0;
 }
+
+.blog .post-meta ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+    margin: 0 .5em .5em 0;
+    padding: .2em .8em;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.blog .post-meta ul li {
+    float: left;
+    margin-right: 1em;
+    font-size: 0.8em;
+}
+
+.blog .blog-post-tags ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blog .blog-post-tags li a {
+    float: left;
+    margin: 0 .5em .5em 0;
+    padding: .2em .8em;
+    background-color: #f5f4f4;
+    font-size: .6em;
+    font-style: normal;
+    color: #757575;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    border: 1px solid #d0d0d0;
+}
+
