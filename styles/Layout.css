@@ -714,17 +714,36 @@ footer span {
 
 
 .social-icons {
+    margin: 0;
     padding: 0;
-    display: inline-block;
-    *display: inline;
-    margin-bottom: 0;
-    margin-left: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    *zoom: 1;
 }
-ul, ol {
-    padding: 0;
-    margin: 0 0 10px 25px;
+
+.social-icons li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.social-icons li:first-child {
+    margin-left: 0;
+}
+
+.social-icons li a{
+    color: #DE5E60;
+    font-size: 16px;
+    line-height: 1em;
+    width: 16px;
+    height: 16px;
+
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+
+    -webkit-transition: opacity 0.1s linear 0s;
+    -moz-transition: opacity 0.1s linear 0s;
+    -o-transition: opacity 0.1s linear 0s;
+    transition: opacity 0.1s linear 0s;
+}
+
+.social-icons li a:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
