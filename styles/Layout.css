@@ -613,11 +613,11 @@ footer span {
 }
 
 .blog .indexMeta {
-    border-top: 1px solid #d0d0d0 !important;
+    border-top: 1px solid #d0d0d0
     clear: both;
     position: relative;
-    padding: 20px !important;
-    padding-bottom: 40px !important;
+    padding: 20px
+    padding-bottom: 40px
     margin-bottom: 40px;
 }
 
