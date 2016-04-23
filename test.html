@@ -2,47 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <<script type="text/javascript" src="scripts/jquery.js"></script>
+    <title>Welcome to Frost Gaming labs!</title>
+    <link rel="stylesheet" href="Styles/Layout.css" type="text/css" />
+    <link href="styles/fonts.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="container-fluid" ng-controller="EditProfileController">
-    <form name="profileForm">
-        <div class="row-fluid">
-            <div class="span3">
-                <gravatar email="{{user.emailAddress}}"/>
-            </div>
-            <div class="span3">
-                <fieldset>
-                    <label for="userName">User Name:</label>
-                    <input focus id="userName" required ng-pattern="/^[-A-Za-z0-9]{2,20}$/" type="text" placeholder="Username" ng-model="user.userName" />
-                    <label for="password">Password:</label>
-                    <input id="password" required type="password" placeholder="Password" ng-model="user.password" />
-                </fieldset>
-                <div style="margin-top:15px">
-                    <fieldset>
-                        <label for="name">Name:</label>
-                        <input id="name" type="text" placeholder="Name" ng-model="user.name" />
-                        <label for="emailAddress">Email Address:</label>
-                        <input id="emailAddress" type="email" placeholder="Email Address" ng-model="user.emailAddress" />
-                    </fieldset>
+<header>
+
+    <div class="sticky-wrapper" style="height: 0px;"><div class="sticky-nav stuck">
+        <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+
+        <div id="logo">
+            <a class="headerlogo" href="index.html">
+                <img src="images/logo.png" />
+            </a>
+        </div>
+
+        <nav id="menu">
+            <ul id="menu-nav">
+
+                <li><a href="index.html" class="external">Home</a></li>
+                <li><a href="ourwork.html" class="external">Our Work</a></li>
+                <li><a href="about.html" class="external">About Us</a></li>
+                <li><a href="contact.html" class="external">Contact</a></li>
+                <li class="current"><a href="shortcodes.html">Somth</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    </div>
+
+    <div id="headerwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Welcome to Frost Gaming labs!</h1>
+
                 </div>
             </div>
         </div>
-        <div class="row-fluid">
-            <div class="span6 offset3">
-                <label for="bio">Bio:</label>
-                <textarea id="bio" rows="6" style="width:97%; color:#52575c" placeholder="Bio" ng-model="user.bio"></textarea>
-            </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<div class="row">
+    <div class="box">
+        <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">Company <strong>blog</strong>
+            </h2>
+            <hr>
         </div>
-        <div class="row-fluid">
-            <div class="span6 offset3">
-                <div class="pull-left"><span class="btn">Cancel</span></div>
-                <div class="pull-right"><button type="submit" class="btn btn-primary">Save</button></div>
-            </div>
+        <div class="col-lg-12 text-center">
+            <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
+            <h2>Post Title
+                <br>
+                <small>October 13, 2013</small>
+            </h2>
+            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <a href="#" class="btn btn-default btn-lg">Read More</a>
+            <hr>
         </div>
-    </form>
+        <div class="col-lg-12 text-center">
+            <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
+            <h2>Post Title
+                <br>
+                <small>October 13, 2013</small>
+            </h2>
+            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <a href="#" class="btn btn-default btn-lg">Read More</a>
+            <hr>
+        </div>
+        <div class="col-lg-12 text-center">
+            <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
+            <h2>Post Title
+                <br>
+                <small>October 13, 2013</small>
+            </h2>
+            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <a href="#" class="btn btn-default btn-lg">Read More</a>
+            <hr>
+        </div>
+        <div class="col-lg-12 text-center">
+            <ul class="pager">
+                <li class="previous"><a href="#">&larr; Older</a>
+                </li>
+                <li class="next"><a href="#">Newer &rarr;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 <script src="/lib/jquery.min.js"></script>
@@ -57,6 +113,47 @@
 <script src="/js/filters.js"></script>
 <script src="/lib/bootstrap.min.js"></script>
 
+
+
+
+<footer id="footer">
+
+    <div class="container">
+
+
+
+        <div class="footercontainer">
+            <div class="socialcontainer">
+                <div id="social-area" class="page">
+                    <div class="container">
+                        <nav id="social">
+                            <ul>
+                                <li><a href="https://twitter.com/111111111111" title="Follow Me on Twitter" target="_blank">
+                                    <span class="font-icon-social-twitter"></span></a></li>
+                                <li><a href="https://www.facebook.com/111111111111" title="Follow Me on Facebook" target="_blank">
+                                    <span class="font-icon-social-facebook"></span></a></li>
+                                <li><a href="https://plus.google.com/10550042087831111111111111" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                                <li><a href="http://www.linkedin.com/in/alessi111111111111" title="Follow Me on LinkedIn" target="_blank">
+                                    <span class="font-icon-social-linkedin"></span></a></li>
+                                <li><a href="http://themeforest.net/user/111111111111" title="Follow Me on ThemeForest" target="_blank">
+                                    <span class="font-icon-social-envato"></span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-5 copyright">Frost Gaming labs 2016<div class="zerif-copyright-box">
+            <a class="zerif-copyright">contact@fglabs.com </a>
+
+        </div>
+        </div>
+    </div> <!-- / END CONTAINER -->
+
+</footer>
 
 </body>
 </html>
