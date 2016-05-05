@@ -101,11 +101,15 @@ textarea:-ms-input-placeholder {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     color: #7F8289;
+
 }
+
+
 
 header {
     width: 100%;
     z-index: 99;
+
 }
 
 header .sticky-nav {
