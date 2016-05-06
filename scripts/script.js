@@ -6,5 +6,5 @@ $(document).ready(function() {
         hideFunction: function($ul, complete) {
             $ul.slideUp(250, complete);
         }
-    }); // end smartmenus
-}); // end ready
+    });
+});
