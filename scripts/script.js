@@ -1,10 +1,15 @@
 $(document).ready(function() {
-    $('.sm').smartmenus({
-        showFunction: function($ul, complete) {
-            $ul.slideDown(250, complete);
-        },
-        hideFunction: function($ul, complete) {
-            $ul.slideUp(250, complete);
-        }
-    });
+
 });
+
+$(document).ready(function() {
+    $('#animate').click(function() {
+        $(this).animate(
+            {
+                width: '400px',
+             height: '400px'
+         },
+         1000,
+             'easeInBounce'); // end animate
+         }); // end click
+     }); // end ready
