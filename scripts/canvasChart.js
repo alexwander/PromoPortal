@@ -37,12 +37,6 @@ function createAxis(context, startx, starty, endx, endy) {
     context.stroke();
 }
 
-function createBar(context, x, y, width, height, fill) {
-    context.beginPath();
-    context.rect(x, y, width, height);
-    context.closePath();
-    context.stroke();
-    context.fill();
-}
+
 
 
