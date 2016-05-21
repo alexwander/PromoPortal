@@ -29,13 +29,6 @@ function createBarChart(context, data, startX, barWidth, chartHeight, markDataIn
     }
 }
 
-function createAxis(context, startx, starty, endx, endy) {
-    context.beginPath();
-    context.moveTo(startx, starty);
-    context.lineTo(endx, endy);
-    context.closePath();
-    context.stroke();
-}
 
 
 
