@@ -1,6 +1,3 @@
-/**
- * Created by alexandr on 29.02.2016.
- */
 
 
 function createBarChart(context, data, startX, barWidth, chartHeight, markDataIncrementsIn) {
