@@ -36,6 +36,17 @@
         });
     </script>
 
+
+    <script>
+        $(function() {
+            var menu = $("#menu-4").menu();
+            $( "#menu-4" ).menu("focus", null, $( "#menu-4" ).menu().find( ".ui-menu-item:last" ));
+            $(menu).mouseleave(function () {
+                menu.menu('collapseAll');
+            });
+        });
+    </script>
+
     <script>
         $(function() {
             $( "#menu-3" ).menu();
