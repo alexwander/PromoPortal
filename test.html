@@ -47,10 +47,32 @@
         });
     </script>
 
+
+
+
     <script>
         $(function() {
             $( "#menu-3" ).menu();
             $( "#menu-3" ).menu("disable");
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $( "#menu-5" ).menu({
+                create: function( event, ui ) {
+                    var result = $( "#result" );
+                    result.append( "Create event<br>" );
+                },
+                blur: function( event, ui ) {
+                    var result = $( "#result" );
+                    result.append( "Blur event<br>" );
+                },
+                focus: function( event, ui ) {
+                    var result = $( "#result" );
+                    result.append( "focus event<br>" );
+                }
+            });
         });
     </script>
 
