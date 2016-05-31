@@ -33,6 +33,17 @@
 
     <script>
         $(function() {
+            $( "#accordion-3" ).accordion({
+                heightStyle: "content"
+            });
+            $( "#accordion-4" ).accordion({
+                heightStyle: "fill"
+            });
+        });
+    </script>
+
+    <script>
+        $(function() {
 
             // Note: make sure you call dropotron on the top level <ul>
             $('#main-nav > ul').dropotron({
