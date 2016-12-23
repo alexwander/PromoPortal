@@ -8,3 +8,7 @@ app.controller('BlogCtrl', ['$scope', '$http', function ($scope, $http) {
     console.log('hi blog');
 
 }]);
+app.controller('ContactCtrl', ['$scope', '$http', function ($scope, $http) {
+    console.log('hi contact');
+
+}]);
