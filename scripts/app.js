@@ -5,6 +5,10 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 
 
 
+    
+    $locationProvider.html5Mode(true);
+}]);
+
 app.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
     console.log('hi');
 
