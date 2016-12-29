@@ -3,9 +3,14 @@ var app = angular.module("portfolio", ['ngRoute']);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
 
+    $routeProvider
+        .when('/main', {
+            templateUrl: 'main.html',
+            controller: 'MainCtrl'
+        })
+   
 
 
-    
     $locationProvider.html5Mode(true);
 }]);
 
