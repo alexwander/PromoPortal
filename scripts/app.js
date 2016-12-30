@@ -8,7 +8,12 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             templateUrl: 'main.html',
             controller: 'MainCtrl'
         })
-   
+        .when('/about', {
+            templateUrl: 'about.html',
+            controller: 'MainCtrl'
+        })
+        
+        .otherwise({redirectTo:'/main'});
 
 
     $locationProvider.html5Mode(true);
