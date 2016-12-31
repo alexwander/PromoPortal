@@ -12,7 +12,18 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             templateUrl: 'about.html',
             controller: 'MainCtrl'
         })
-        
+        .when('/blog', {
+            templateUrl: 'blog.html',
+            controller: 'BlogCtrl'
+        })
+        .when('/ourwork', {
+            templateUrl: 'ourwork.html',
+            controller: 'MainCtrl'
+        })
+        .when('/contact', {
+            templateUrl: 'contact.html',
+            controller: 'ContactCtrl'
+        })
         .otherwise({redirectTo:'/main'});
 
 
