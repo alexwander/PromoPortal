@@ -18,7 +18,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     line-height: 28px;
     display: block;
-
+   
 
 }
 
@@ -52,7 +52,7 @@ a > img {
 
 img {
     max-width: none;
-
+    
 }
 
 
@@ -62,39 +62,39 @@ h3,
 h4,
 h5,
 h6{
-    margin:0 0 20px 0;
-    color:#000000;
-    font-weight:300;
-    font-family: 'Titillium Web', sans-serif;
-    line-height:1.5em;
+	margin:0 0 20px 0;
+	color:#000000;
+	font-weight:300;
+	font-family: 'Titillium Web', sans-serif;
+	line-height:1.5em;
 }
 
 h1{
-    font-size:48px;
+	font-size:48px;
 }
 
 h2{
-    font-size:36px;
+	font-size:36px;
 }
 
 h3{
-    font-size:24px;
+	font-size:24px;
 }
 
 h4{
-    font-size:20px;
+	font-size:20px;
 }
 
 h5{
-    font-size:18px;
+	font-size:18px;
 }
 
 h6{
-    font-size:16px;
+	font-size:16px;
 }
 
 h3.spec {
-    color: #000000;
+	color: #000000;
     font-size: 24px;
     font-weight: 300;
     line-height: 1em;
@@ -120,26 +120,26 @@ p {
 }
 
 .page-alternate {
-
+   
     padding: 50px 0;
     position: relative;
     z-index: 99;
 }
 
 .title-page {
-    text-align: center;
-    margin-bottom: 50px;
+	text-align: center;
+	margin-bottom: 50px;	
 }
 
 .title-page .title {
-    font-size: 48px;
-    margin: 0 0 10px 0;
+	font-size: 48px;
+	margin: 0 0 10px 0;
 }
 
 .title-page .title-description {
-    font-size: 24px;
-    font-weight: 200;
-    margin: 0;
+	font-size: 24px;
+	font-weight: 200;
+	margin: 0;
 }
 
 input, button, select, textarea {
@@ -263,25 +263,25 @@ nav#menu #menu-nav li a:hover {
 }
 
 
-/*
+/* 
     Slider
  */
 
 
 #myCarousel {
-    position: relative;
+     position: relative;
+	
+     float:left;
 
-    float:left;
-
-    max-width: 20%;
-    margin: 0 auto;
+     max-width: 20%; 
+     margin: 0 auto;
 
 
-    -webkit-transition: background 0.1s linear 0s;
-    -moz-transition: background 0.1s linear 0s;
-    -o-transition: background 0.1s linear 0s;
-    transition: background 0.1s linear 0s;
-}
+     -webkit-transition: background 0.1s linear 0s;	
+	   -moz-transition: background 0.1s linear 0s;
+		 -o-transition: background 0.1s linear 0s;
+		    transition: background 0.1s linear 0s;
+ }
 
 
 
@@ -345,15 +345,15 @@ a.button {
 /* Images */
 
 .profile-name {
-    margin-bottom: 15px;
+	margin-bottom: 15px;	
 }
 
 .profile-description {
-    margin-bottom: 25px;
+	margin-bottom: 25px;	
 }
 
 .image5{
-    width: 324px;
+    width: 324px; 
     height: 68px;
 }
 
@@ -362,7 +362,7 @@ a.button {
     overflow: hidden;
     margin-bottom: 25px;
     cursor: pointer;
-
+    
 
 }
 
@@ -951,7 +951,7 @@ hr {
 }
 
 #waveocto, #blendCurveCat, #wavepath {
-    display: none;
+ display: none;
 
 }
 
@@ -968,47 +968,47 @@ hr {
 
 
 .our-service {
-    padding-top: 106px;
-    /*background: url(../images/bg1.jpg) center center no-repeat;*/
-    /*background-size: cover;*/
-    background:#f5f5f5;
+	padding-top: 106px;
+	/*background: url(../images/bg1.jpg) center center no-repeat;*/
+	/*background-size: cover;*/
+	background:#f5f5f5;
 }
 
 .our-service h2 {
-    line-height: 1.15;
-    margin-bottom: 30px;
+	line-height: 1.15;
+	margin-bottom: 30px;
 }
 .service-block {
-    width: 47%;
-    float: left;
-    padding-left: 30px;
-    padding-top: 12px;
+	width: 47%;
+	float: left;
+	padding-left: 30px;
+	padding-top: 12px;
 }
 .our-service p {
 
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    margin-bottom:20px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	margin-bottom:20px;
 }
 .our-service .btn-block{
-    padding-top:28px
+	    padding-top:28px
 }
 .radius {
-    position: absolute;
-    left: 31px;
-    top: 9px;
-    width: 44px;
-    height: 44px;
-    border-radius: 100%;
+	position: absolute;
+	left: 31px;
+	top: 9px;
+	width: 44px;
+	height: 44px;
+	border-radius: 100%;
 }
 
 
 .figure {
-    float: right;
-    width: 49%;
-    text-align: right;
-    /* padding-right: 69px; */
+	float: right;
+	width: 49%;
+	text-align: right;
+	/* padding-right: 69px; */
 }
 
 
